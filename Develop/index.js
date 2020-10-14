@@ -61,12 +61,19 @@ const questions = [
 ];
 
 inquirer  
+    // uses inquirer module to prompt user questions when run the node index.js command in terminal
     .prompt(questions)
-
-// function to write README file
-function writeToFile(fileName, data) {
+    // setting up the callback function to get the user input answers
+    .then(function(data) {
+        console.log(data);
+        fs.appendFile("README.md",JSON.stringify(data)+'\n',function(error){
+        if(error){
+            return console.log(error);
+        }
+        console.log("Success");
+        })
     // PAUL TA generateMarkdown(data);
-}
+    });
 
 // function to initialize program
 function init() {
