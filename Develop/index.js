@@ -38,14 +38,25 @@ const questions = [
     },
     {
         type: "input",
+        name: "sources",
+        message: "Did you use any sources in your project?"
+    },
+    {
+        type: "input",
         name: "authors",
         message: "Who are the authors?"
     },
     {
         type: "input",
-        name: "sources",
-        message: "Did you use any sources in your project?"
+        name: "username",
+        message: "What is your github username?"
     },
+    {
+        type: "input",
+        name: "repo",
+        message: "What is the repo link for your project?"
+    },
+
 
 ];
 
