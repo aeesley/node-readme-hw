@@ -66,20 +66,16 @@ inquirer
     // setting up the callback function to get the user input answers
     .then(function(data) {
         console.log(data);
-        fs.appendFile("README.md",JSON.stringify(data)+'\n',function(error){
-        if(error){
+        fs.appendFile("README.md",JSON.stringify(data)+"\n",function(error){
+        if(error){ // add all user data to README file with a message at the end that says "Success" in console, and console.log any errors
             return console.log(error);
         }
         console.log("Success");
         })
-    // PAUL TA generateMarkdown(data);
     });
 
 // function to initialize program
 function init() {
-    // PAUL TA ask the inquirer stuff
-    // one question about file name...
-    // writeToFile(saidFileName, dataFromQuestions)
 
 }
 
