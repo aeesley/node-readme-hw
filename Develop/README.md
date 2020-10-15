@@ -1,45 +1,37 @@
+# Project Title: Node README Generator
 
-# Project TItle: tom
+  # Project Description: 
+  
+  For this homework assignment we are being asked to generate a good README file through node.js commands.
 
-# Project TItle: asdf
+  # Installation Instructions: 
+  
+  N/A
 
-# Project TItle: asdf
+  # Usage Instructions: 
+  
+  N/A
 
-# Project Title: test
-          # Project Description: test
-          # Installation Instructions: tes
-          # Usage Instructions: tes
-          # Contribution Guidelines: tes
-          # License: tes
-          # Sources: test
-          # Author(s): undefined
-          # Github Username: test
-          # Github Repo Link: tes
-# Project Title: test
+  # Contribution Guidelines: 
+  
+  This is a student homework assignment and not currently accepting contributions.
 
-    # Project Description: 
-    slkersleis
+  # License: 
+  
+  N/A
 
-    # Installation Instructions: 
-    sleisfleise
+  # Sources: 
+  
+  I worked using several of the Class Activities as references, as well as consulted with a tutor through the program.
 
-    # Usage Instructions: 
-    sliefsleise
+  # Author: 
+  
+  undefined
 
-    # Contribution Guidelines: 
-    lisenfslies
+  # Github Username: 
+  
+  aeesley
 
-    # License: 
-    slienfslies
-
-    # Sources: 
-    lsienfsliens
-
-    # Author: 
-    undefined
-
-    # Github Username: 
-    lsiefnlsie
-
-    # Github Repo Link: 
-    slefnseis
+  # Github Repo Link: 
+  
+  https://github.com/aeesley/node-readme-hw
