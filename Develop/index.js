@@ -3,6 +3,7 @@
 const inquirer = require("inquirer");
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown');
+//var myTutor = require('./utils/generateMarkdown')
 
 // array of questions for user
 const questions = [
@@ -60,23 +61,27 @@ const questions = [
 
 ];
 
-inquirer  
+
+
+// function to initialize program
+function init() {
+    console.log('hello from init!!')
+    inquirer  
     // uses inquirer module to prompt user questions when run the node index.js command in terminal
     .prompt(questions)
     // setting up the callback function to get the user input answers
     .then(function(data) {
         console.log(data);
-        fs.appendFile("README.md",JSON.stringify(data)+"\n",function(error){
-        if(error){ // add all user data to README file with a message at the end that says "Success" in console, and console.log any errors
-            return console.log(error);
-        }
-        console.log("Success");
+
+        var fakeReadMe = generateMarkdown(data)
+
+        fs.appendFile("README.md",fakeReadMe,function(error){
+            if(error){ // add all user data to README file with a message at the end that says "Success" in console, and console.log any errors
+                return console.log(error);
+            }
+            console.log("Success");
         })
     });
-
-// function to initialize program
-function init() {
-
 }
 
 // function call to initialize program
